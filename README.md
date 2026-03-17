@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Revi Dashboard
 
-# Run and deploy your AI Studio app
+Um dashboard moderno de CRM e Marketing para gerenciar campanhas, clientes e métricas.
 
-This contains everything you need to run your app locally.
+## Tecnologias Utilizadas
 
-View your app in AI Studio: https://ai.studio/apps/23c3ce75-65d0-4b36-b31e-b2bb37218f0d
+- React
+- TypeScript
+- Tailwind CSS
+- Recharts (Gráficos)
+- Lucide React (Ícones)
+- date-fns (Manipulação de datas)
 
-## Run Locally
+## Como executar
 
-**Prerequisites:**  Node.js
+1. Instale as dependências:
+```bash
+npm install
+```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
